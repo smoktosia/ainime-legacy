@@ -1,0 +1,15 @@
+{
+    "en": {
+        "accounts": {
+            "sign_in": "Sign In",
+            "create_account": "Create Account"
+        }
+    },
+
+    "pl": {
+        "accounts": {
+            "sign_in": "Zaloguj się",
+            "create_account": "Stwórz nowe konto"
+        }
+    }
+}

@@ -1,0 +1,52 @@
+.container {
+    height: 50px;
+    padding: 5px;
+    width: 100%;
+
+    display: flex;
+}
+
+.container > div {
+    flex: 1;
+    height: 100%;
+}
+
+/* NAV BTN AND LOGO */
+.first {
+    padding: 0 15px;
+
+    display: flex;
+    align-items: center;
+
+}
+
+.titleBox {
+    width: 100%;
+    text-align: center;
+}
+
+.titleBox > a {
+    width: fit-content;
+    padding: 3px 8px;
+
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 1.6rem;
+}
+
+/* SEARCH BAR */
+.second, .third {
+    display: flex;
+    align-items: center;
+}
+
+.searchBar {
+    width: calc(100% - 50px) !important;
+}
+
+/* ACCOUNT */
+.third {
+    justify-content: space-evenly;
+}
