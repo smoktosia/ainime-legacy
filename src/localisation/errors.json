@@ -1,0 +1,24 @@
+{
+    "en": {
+        "inputs": {
+            "username": {
+                "length": "Username must have 3-16 characters",
+                "alpha": "Invalid characters"
+            },
+            "pass": {
+                "length": "Password must have at least 6 characters"
+            }
+        }
+    },
+    "pl": {
+        "inputs": {
+            "username": {
+                "length": "Nazwa użytkownika musi mieć od 3 do 16 znaków",
+                "alpha": "Niepoprawne znaki"
+            },
+            "pass": {
+                "length": "Hasło musi mieć co najmniej 6 znaków"
+            }
+        }
+    }
+}

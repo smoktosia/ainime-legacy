@@ -1,12 +1,17 @@
 .App {
-  background-color: #252225;
   min-height: 100vh;
   color: #fff;
 
   font-family: 'Roboto';
 
+  background-color: var(--bgc);
+
+  /* COLORS */
   --accent-color: #d85ca0;
   --accent-color-rgb: 216, 92, 160;
+  --bgc: #252225;
+
+  --white: #dadada;
 }
 
 /* HEADERS */
@@ -35,4 +40,10 @@
 
 .selectable:active {
   transform: scale(.9);
+}
+
+/* STRUCTURAL */
+.content {
+  width: 100%;
+  padding-top: 60px;
 }

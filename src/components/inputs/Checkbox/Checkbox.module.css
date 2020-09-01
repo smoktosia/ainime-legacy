@@ -1,0 +1,39 @@
+.label {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    width: 25px;
+    height: 25px;
+
+    background-color: rgba(var(--accent-color-rgb), .88);
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+
+    transition: .1s ease-in background-color;
+
+    flex-shrink: 0;
+}
+
+.container:hover {
+    background-color: rgba(var(--accent-color-rgb), .95);
+}
+
+.icon {
+    opacity: 0;
+    transition: .1s ease-in opacity;
+}
+
+.input { display: none; }
+.input:checked ~ .icon { opacity: 1; }
+
+.text {
+    margin-left: 10px;
+    cursor: pointer;
+}

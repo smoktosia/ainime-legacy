@@ -1,0 +1,36 @@
+.form {
+    width: 100%;
+    padding: 50px 20px;
+    text-align: center;
+    min-height: 200px;
+}
+
+.inputs {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs > label {
+    margin-bottom: 15px;
+}
+
+.inputs > button {
+    margin-top: 35px;
+}
+
+.checkbox {
+    display: flex;
+    max-width: 250px;
+
+    margin-top: 20px;
+}
+
+.fixedImage {
+    max-height: 200px;
+    position: fixed;
+    bottom: 0;
+    right: 50px
+}

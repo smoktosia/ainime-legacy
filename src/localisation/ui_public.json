@@ -2,14 +2,22 @@
     "en": {
         "accounts": {
             "sign_in": "Sign In",
-            "create_account": "Create Account"
+            "create_account": "Create Account",
+
+            "username": "Username",
+            "password": "Password",
+            "password_confirm": "Confirm Password"
         }
     },
 
     "pl": {
         "accounts": {
             "sign_in": "Zaloguj się",
-            "create_account": "Stwórz nowe konto"
+            "create_account": "Stwórz konto",
+
+            "username": "Nazwa użytkownika",
+            "password": "Hasło",
+            "password_confirm": "Potwierdź hasło"
         }
     }
 }

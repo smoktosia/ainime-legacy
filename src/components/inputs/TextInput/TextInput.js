@@ -28,7 +28,7 @@ const TextInput = ({type, containerClassName, inputClassName, center, focusBar, 
     )
 }
 
-TextInput.propTypes ={
+TextInput.propTypes = {
     type: PropTypes.string.isRequired,
 
     containerClassName: PropTypes.string,

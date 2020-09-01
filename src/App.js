@@ -8,11 +8,10 @@ import { LangContext } from 'context'
 // SERVICES
 import LangService from 'services/LangService'
 
-// UTILS
-import { setTitle } from 'utils'
 
 // COMPONENTS
 import Header from 'components/structure/Header/Header'
+import Routes from 'components/meta/Routes/Routes'
 
 // MAINS CSS
 import './App.css';
@@ -28,8 +27,6 @@ function App() {
 
   // INITIAL EFFECT
   useEffect(() => {
-    setTitle('Home')
-
     // LANGUAGE
     let _lang = Lang.getLocalStorage() || Lang.getBrowserLang()
     setLang(Lang.checkFromList(_lang))
@@ -46,21 +43,22 @@ function App() {
   return (
     <BrowserRouter>
     <LangContext.Provider value={lang}>
-    <div className="App">
-
-
     <IconContext.Provider value={{
       className: 'icon',
       size: '1.5rem'
     }}>
+      <div className="App">
 
+        {/* STATIC, HEADER AND NAVBAR */}
+        <Header />
 
-      <Header />
+        {/* DYNAMCI, RRD */}
+        <Routes />
 
+        {/* STATIC, FOOTER */}
 
+      </div>
     </IconContext.Provider>
-
-    </div>
     </LangContext.Provider>
     </BrowserRouter>
   );

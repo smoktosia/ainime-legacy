@@ -24,6 +24,12 @@
     font-size: .9rem;
 
     padding: 2px 8px;
+
+    transition: ease-in background-color .2s;
+}
+
+.input:focus {
+    background-color: rgba(120, 120, 120, .4);
 }
 
 .focusBar::before {

@@ -66,11 +66,11 @@ const Header = () => {
             {/* ACCOUNT */}
             <div className={style.third}>
 
-                <Link to='/' className='na selectable'>
+                <Link to='/account/sign-in' className='na selectable'>
                     { loc[lang].accounts.sign_in }
                 </Link>
 
-                <Link to='/' className='na selectable'>
+                <Link to='/account/create-account' className='na selectable'>
                     { loc[lang].accounts.create_account }
                 </Link>
 
